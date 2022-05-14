@@ -5,7 +5,7 @@ Like Java, stream API for processing of collection of elements with less code in
 
 Lets say you have a slice of following struct:
 
-```
+```go
 type Employee struct {
 	Id     int
 	Name   string
@@ -18,7 +18,7 @@ And you need to have slice of salaries of all employees having Age > 30.
 Have a look at the following code using streams package:
 
 
-```
+```go
 
 package main
 
