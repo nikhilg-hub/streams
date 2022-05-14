@@ -2,10 +2,6 @@ package streams
 
 import "fmt"
 
-type numeric interface {
-	int | int32 | int64 | float32 | float64
-}
-
 type Stream[T any] struct {
 	list []T
 }
